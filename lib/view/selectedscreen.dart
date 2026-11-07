@@ -859,7 +859,6 @@ import 'package:kiosk/fontpallate.dart';
 import 'package:kiosk/provider/homeprovider.dart';
 import 'package:kiosk/view/bookpooja.dart';
 import 'package:kiosk/view/homepage.dart';
-import 'package:kiosk/view/muttarukkal_option_screen.dart';
 import 'package:provider/provider.dart';
 
 class LanguageSelectedScreen extends StatefulWidget {

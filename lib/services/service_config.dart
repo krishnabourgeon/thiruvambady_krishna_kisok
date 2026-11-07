@@ -104,7 +104,7 @@ class ServiceConfig {
       var response = res.asValue!.value;
       debugPrint('pooja details response $response');
       PoojaDetailsModel poojaDetailResponse = PoojaDetailsModel.fromJson(response);
-      return (poojaDetailResponse.status ?? false)
+      return (poojaDetailResponse.status)
           ? Result.value(poojaDetailResponse)
           : Result.error(poojaDetailResponse);
     }

@@ -1,6 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:async/async.dart';
-import 'package:kiosk/services/helpers.dart';
 import 'package:kiosk/models/login_response_model.dart';
 import 'package:kiosk/services/provider_helper_class.dart';
 import 'package:kiosk/services/shared_preference_helper.dart';
